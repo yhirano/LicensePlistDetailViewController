@@ -6,6 +6,7 @@ LicensePlistViewController
 [![Language: Swift 5.0](https://img.shields.io/badge/swift-5.0-4BC51D.svg?style=flat)](https://developer.apple.com/swift)
 [![Version](https://img.shields.io/cocoapods/v/LicensePlistViewController.svg?style=flat)](http://cocoadocs.org/docsets/LicensePlistViewController)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/hsylife/SwiftyPickerPopover)
+[![Swift Package Manager compatible](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg)](https://github.com/apple/swift-package-manager)
 
 LicensePlistViewController is ViewController for [LicensePlist](https://github.com/mono0926/LicensePlist/).
 
@@ -36,6 +37,18 @@ Simply add the following line to your `Cartfile`:
 ```
 github "yhirano/LicensePlistViewController"
 ```
+
+### Swift Package Manager
+
+Simply add the following line to your `Package.swift`:
+
+```swift
+dependencies: [
+    .package(url: "https://github.com/yhirano/LicensePlistViewController.git", from: "2.1.3")
+]
+```
+
+Alternatively, you can add the package [directly via Xcode](https://developer.apple.com/documentation/xcode/adding_package_dependencies_to_your_app).
 
 ## Usage
 
